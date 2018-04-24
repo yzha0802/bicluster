@@ -5,7 +5,7 @@ from setuptools import setup, find_packages
 setup(
       name='biclustering',
       version=1.0,
-      url='https://github.com/yzha0802/python-bicluster',
+      url='https://github.com/yzha0802/python-bicluster-svd-implementation',
       description='Implementation of Sparse Singular Value Decomposition',
       # long_description=open('README').read(),
       author='Yan Zhao, Rui Wang',
