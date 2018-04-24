@@ -1,41 +1,11 @@
-from os.path import dirname, join
-from setuptools import setup, find_packages
+from setuptools import setup
 
-
-setup(
-      name='bicluster',
-      version=1.0,
-      url='https://github.com/yzha0802/bicluster',
-      description='Implementation of Sparse Singular Value Decomposition',
-      # long_description=open('README').read(),
-      author='Yan Zhao, Rui Wang',
-      #maintainer='Pablo Hoffman',
-      #maintainer_email='pablo@pablohoffman.com',
-      license='BSD',
-      packages=find_packages(exclude=('tests', 'tests.*')),
-      include_package_data=True,
-      zip_safe=False,
-      entry_points={
-      'console_scripts': ['scrapy = scrapy.cmdline:execute']
-      },
-      classifiers=[
-                   'Framework :: bicluster',
-                   'Development Status :: 5 - Production/Stable',
-                   'Environment :: Console',
-                   'Intended Audience :: Developers',
-                   'License :: OSI Approved :: BSD License',
-                   'Operating System :: OS Independent',
-                   'Programming Language :: Python',
-                   'Programming Language :: Python :: 2',
-                   'Programming Language :: Python :: 2.7',
-                   'Programming Language :: Python :: 3',
-                   'Programming Language :: Python :: 3.3',
-                   'Programming Language :: Python :: 3.4',
-                   'Programming Language :: Python :: 3.5',
-                   'Programming Language :: Python :: 3.6',
-                   'Topic :: Internet :: WWW/HTTP',
-                   'Topic :: Software Development :: Libraries :: Application Frameworks',
-                   'Topic :: Software Development :: Libraries :: Python Modules',
-                   ],
-      install_requires=[],
-      )
+setup(name='bicluster',
+      version='0.1',
+      description='The funniest joke in the world',
+      url='http://github.com/yzha0802/bicluster',
+      author='Flying Circus',
+      author_email='flyingcircus@example.com',
+      license='MIT',
+      packages=['biclustersvd'],
+      zip_safe=False)
