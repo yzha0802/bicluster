@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 
 setup(
-      name='biclustering',
+      name='bicluster',
       version=1.0,
       url='https://github.com/yzha0802/bicluster',
       description='Implementation of Sparse Singular Value Decomposition',
